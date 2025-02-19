@@ -31,6 +31,11 @@ StudentID,Name,Assignment,Status,DueDate
 003,Alice Brown,History Essay,Pending,2025-02-18
 004,Bob White,Physics Lab,Submitted,2025-02-17
 005,Charlie Green,English Essay,Pending,2025-02-16
+006,Charlote , Frenc Essay,Pending,2025-02-16
+007,Adams Scott, History,Pending,2025-02-18
+008,Watkins, Physics lab,Submitted,2025-02-14
+009,Jennifer,English Essay,Pending,2025-02-19
+010,Kevin Hart,English Essay,Submitted,2025-02-20
 EOL
 
 # Add executable permissions to startup.sh
