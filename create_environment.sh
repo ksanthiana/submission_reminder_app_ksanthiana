@@ -25,17 +25,17 @@ touch "$main_dir/startup.sh"
 
 # Populate submissions.txt with sample records
 cat <<EOL > "$main_dir/assets/submissions.txt"
-StudentID,Name,Assignment,Status,DueDate
-001,John Doe,Math Homework,Pending,2025-02-20
-002,Jane Smith,Science Report,Submitted,2025-02-19
-003,Alice Brown,History Essay,Pending,2025-02-18
-004,Bob White,Physics Lab,Submitted,2025-02-17
-005,Charlie Green,English Essay,Pending,2025-02-16
-006,Charlote , Frenc Essay,Pending,2025-02-16
-007,Adams Scott, History,Pending,2025-02-18
-008,Watkins, Physics lab,Submitted,2025-02-14
-009,Jennifer,English Essay,Pending,2025-02-19
-010,Kevin Hart,English Essay,Submitted,2025-02-20
+student, assignment, submission status
+Chinemerem, Shell Navigation, not submitted
+Chiagoziem, Git, submitted
+Divine, Shell Navigation, not submitted
+Anissa, Shell Basics, submitted
+Titi, Shell I/O, submitted
+Santhiana, Python, not submitted
+Jobel, Git, submitted
+Clark, shell Basics, submitted
+Anaella, shell, not submitted
+Oriri, Python, not submitted
 EOL
 
 # Add executable permissions to startup.sh
