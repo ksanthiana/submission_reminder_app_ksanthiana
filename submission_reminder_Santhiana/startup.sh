@@ -24,3 +24,4 @@ else
 fi
 
 echo "Submission Reminder App Started Successfully!"
+c
