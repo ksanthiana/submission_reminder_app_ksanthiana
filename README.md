@@ -1,51 +1,46 @@
-# Submission Reminder App
+Submission Reminder App
+The Submission Reminder App is a simple shell script-based tool designed to help track student submission statuses.
 
-This project sets up a submission reminder application using shell scripts.
+Project Structure
+When you run the create_environment.sh script, it sets up the following structure for your project:
 
-## Overview
-The **Submission Reminder App** is a shell script-based system designed to help track student submission statuses. This project sets up the environment for the application by creating the necessary directory structure and files.
-
-## Project Structure
-When the `create_environment.sh` script is executed, it creates the following structure:
-
-submission_reminder_{yourName}/ │── scripts/ │ ├── reminder.sh │ ├── functions.sh │ ├── startup.sh │── config/ │ ├── config.env │── data/ │ ├── submissions.txt
-
-markdown
+arduino
 Copy
 Edit
+submission_reminder_{yourName}/
+  ├── scripts/
+  │    ├── reminder.sh
+  │    ├── functions.sh
+  │    └── startup.sh
+  ├── config/
+  │    └── config.env
+  ├── data/
+  │    └── submissions.txt
+Installation & Setup
+Clone the repository:
 
-## Getting Started
-
-### Prerequisites
-- A Unix-based system (Linux or macOS) or Windows with WSL/Git Bash
-- Bash installed (`bash --version` to check)
-- Git installed (for pushing to GitHub)
-
-### Installation & Setup
-
-1. **Clone the repository**
-   ```sh
-   git clone https://github.com/your-github-username/submission_reminder_app_githubusername.git
-   cd submission_reminder_app_githubusername
-Make the script executable
+sh
+Copy
+Edit
+git clone https://github.com/your-github-username/submission_reminder_app.git
+cd submission_reminder_app
+Make the setup script executable:
 
 sh
 Copy
 Edit
 chmod +x create_environment.sh
-Run the setup script
+Run the setup:
 
 sh
 Copy
 Edit
 ./create_environment.sh
-The script will prompt you for your name.
-It will create the submission_reminder_{yourName} directory with all necessary files and folders.
-Add more students
+This will prompt you for your name and create the necessary directories and files.
 
-Open data/submissions.txt and manually add at least 5 more student records.
-Follow the same format as in the provided submissions.txt file.
-Run the Application
+Add more students: Open the data/submissions.txt file and manually add at least five more student records.
+
+Run the application:
 
 sh
 Copy
@@ -54,25 +49,22 @@ cd submission_reminder_{yourName}/scripts
 chmod +x startup.sh
 ./startup.sh
 File Descriptions
-create_environment.sh → Sets up the directory and files for the app.
-startup.sh → Starts the application.
-reminder.sh → Contains the logic for sending submission reminders.
-functions.sh → Defines helper functions used in the application.
-config.env → Stores environment variables.
-submissions.txt → Contains student submission records.
+create_environment.sh: Sets up the project environment.
+startup.sh: Starts the reminder application.
+reminder.sh: Contains the logic for sending reminders.
+functions.sh: Helper functions used by the app.
+config.env: Stores environment variables.
+submissions.txt: Holds student submission records.
 GitHub Submission
-Push your project to GitHub:
+Push your changes to GitHub with the following commands:
+
 sh
 Copy
 Edit
 git add .
 git commit -m "Added README file"
 git push origin main
-Your repository should be named:
-nginx
-Copy
-Edit
-submission_reminder_app_githubusername
+Your repository should be named: submission_reminder_app_{yourUsername}.
 
 License
 
