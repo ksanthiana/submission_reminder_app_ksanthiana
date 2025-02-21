@@ -7,14 +7,15 @@ When you run the create_environment.sh script, it sets up the following structur
 
 
 submission_reminder_{yourName}/
-  ├── scripts/
+  ├── app/
   │    ├── reminder.sh
-  │    ├── functions.sh
-  │    └── startup.sh
+  |── modules/
+       ├── functions.sh
   ├── config/
   │    └── config.env
-  ├── data/
+  ├── assets/
   │    └── submissions.txt
+  └── startup.sh
 Installation & Setup
 Clone the repository:
 
